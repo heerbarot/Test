@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>
+		test
+	</title>
+	<style type="text/css">
+	section{ 
+		padding-left: 70px;
+
+		font-size: 20px;
+		float: left;
+		width: 75%;
+		height: 500px;
+		background-color: powderblue;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+
+	}
+	aside{
+		font-size: 20px;
+		padding: 10px;
+		float: left;
+		width: 20%;
+		height: 480px;
+		background-color: lightblue;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	ul{
+		list-style-type: disc;
+	}
+	li{
+		list-style-position: inside;
+	}
+	div{
+		float: left;
+		width: 48%;
+		padding: 10px;
+		text-align: left;
+	}
+	fieldset{
+		border-radius: 8px;
+	}
+	.small-noticeboard{
+		font-size: 80%;
+	}
+	.big-noticeboard{
+		font-size: 120%;
+	}
+	.margin-right-5{
+		margin-right: 10px;
+	}
+
+
+	.red-text{color:red;}
+	.yellow-text{color:yellow;}
+	.blue-text{color:blue;}
+
+</style>
+</head>
+<header>
+<img src="logo.png" alt="Logo" style="float: left; height: 50px; width: auto;" >
+<h1 style="text-align: center;">HEADER</h1>
+</header>
+<hr>
+
+<br>
+
+<section>
+	<h3 style="text-align: center;">All Employee Details</h3>
+	<hr>
+	<div>
+		<p>
+		Name:<br>
+		<input type="text" name="" placeholder="Enter Name"><br>
+		Experience: 
+		<input type="text" name="" placeholder="Enter Experience"><br>
+		Technology<br>
+		<input type="checkbox" name="ab" value="JavaScript">JavaScript<br>
+		<input type="checkbox" name="ab" value="PHP">PHP<br>
+		<input type="checkbox" name="ab" value="Python">Python<br>
+		</p>
+	</div>
+	
+	<div style="border-left: dotted;" >
+		
+	 	<p>Last Education</p>
+	 	<p>
+		<input type="radio" name="a">BE
+		<input type="radio" name="a">ME
+		<input type="radio" name="a">BCA<br>
+		<input type="radio" name="">Diploma
+		</p>
+		<fieldset style="width: 300px">
+			<legend >Contact Details</legend>
+			Email:
+			<input type="text" name=""><br>
+			Phone:
+			<input type="number" name=""><br>
+			Skype:
+			<input type="text" name="">
+		</fieldset>
+	</div>
+	<div style="text-align: center;width: 100%">
+		<input type="button"  value="ADD DETAILS">
+	</div>
+</section>
+
+
+
+<aside style="border-left: solid;">
+	<h3>
+		<span class="red-text big-noticeboard"> N </span>
+		<span class="yellow-text small-noticeboard"> O </span>
+		<span class="blue-text big-noticeboard"> T </span>
+		<span class="red-text  small-noticeboard"> I </span>
+		<span class="yellow-text  big-noticeboard"> C </span>
+		<span class="blue-text  small-noticeboard margin-right-5"> E </span>
+		<span class="red-text big-noticeboard"> B </span>
+		<span class="yellow-text small-noticeboard"> O </span>
+		<span class="blue-text big-noticeboard"> A </span>
+		<span class="red-text small-noticeboard"> R </span>
+		<span class="yellow-text big-noticeboard"> D </span>
+	</h3>
+	<ul type="circle">
+		<li>Point 1
+			<ol type="I">
+				<li> Sub point 1</li>
+				<li> Sub point 2</li>
+				<li> Sub point 3</li>
+			</ol>
+		</li>		
+		<li>Point 2
+			<ol type="a">
+				<li> Sub point 2-1</li>
+				<li> Sub point 2-2</li>
+				<li> Sub point 2-3</li>
+			</ol>
+		</li>
+	</ul>
+</aside>
+
+</html>
